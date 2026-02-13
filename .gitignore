@@ -1,0 +1,25 @@
+# dependencies
+node_modules
+.pnpm-store
+
+# env and secrets
+.env
+.env.local
+.env.*.local
+
+# build and cache
+.next
+out
+.turbo
+*.tsbuildinfo
+
+# generated
+.source
+
+# IDE
+.vscode
+.idea
+
+# OS
+.DS_Store
+Thumbs.db
